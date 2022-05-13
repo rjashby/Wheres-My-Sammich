@@ -18,4 +18,4 @@ Captain's Log
 
 3:30 - WIP - code along with tutorials and learning some Mongo DB
 
-4:24 - WIP - Still going through 12 hour tutorial. Much better understand of React.
+4:24 - WIP - Still going through 12 hour tutorial. Much better understanding of React.
