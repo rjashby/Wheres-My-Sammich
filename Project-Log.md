@@ -17,3 +17,5 @@ Captain's Log
 3:00 - WIP - Still sick with Covid - Spent an extra couple hours lying down and drinking fluids. Trying my best. Back at it. 
 
 3:30 - WIP - code along with tutorials and learning some Mongo DB
+
+4:24 - WIP - Still going through 12 hour tutorial. Much better understand of React.
