@@ -29,3 +29,5 @@ May 15, 2022:
 1:49 pm - WIP - still coding along with the above tutorial. I have created a Notes.txt file, but it is in my git ignore. I'm ensuring I completely understand how to use and store state via hooks. 
 
 2:22 PM - WIP - coding along with tutorial. Using arrays in state. Moving on to object and using state. Updating my hidden notes file as I go. 
+
+3:32 - WIP - Took a 1 hour break to clean and eat lunch. Back to coding with tutorial. Working on hooks with objects. 
