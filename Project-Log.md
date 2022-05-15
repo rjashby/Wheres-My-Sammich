@@ -22,5 +22,9 @@ Captain's Log
 
 4:55 - WIP - Working through coding challenges in React
 
-May 15, 2022: 12:30 pm - Coding through React tutorial again: https://scrimba.com/learn/learnreact/usestate-changing-state-with-a-callback-function-cof9245f4a914e8aaf080c783
+May 15, 2022: 
+
+12:30 pm - Coding through React tutorial again: https://scrimba.com/learn/learnreact/usestate-changing-state-with-a-callback-function-cof9245f4a914e8aaf080c783
+
+1:49 pm - WIP - still coding along with the above tutorial. I have created a Notes.txt file, but it is in my git ignore. I'm ensuring I completely understand how to use and store state via hooks. 
 
