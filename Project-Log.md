@@ -44,3 +44,6 @@ May 16, 2022:
 8:47 am - WIP - still coding with React tutorial
 
 9:43 am - WIP - ate breakfast, back to coding tutorials
+
+10:40 - WIP - creating a full CRUD MERN stack app... using a separate Github repo:  https://github.com/rjashby/mern-stack-app
+
