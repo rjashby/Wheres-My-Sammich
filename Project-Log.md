@@ -12,7 +12,7 @@ Captain's Log
 
 11:29 - WIP - Still coding along with tutorial
 
-12:05 - WIP - Stop for food break. 
+12:05 pm - WIP - Stop for food break. 
 
 3:00 - WIP - Still sick with Covid - Spent an extra couple hours lying down and drinking fluids. Trying my best. Back at it. 
 
@@ -28,6 +28,14 @@ May 15, 2022:
 
 1:49 pm - WIP - still coding along with the above tutorial. I have created a Notes.txt file, but it is in my git ignore. I'm ensuring I completely understand how to use and store state via hooks. 
 
-2:22 PM - WIP - coding along with tutorial. Using arrays in state. Moving on to object and using state. Updating my hidden notes file as I go. 
+2:22 pm - WIP - coding along with tutorial. Using arrays in state. Moving on to object and using state. Updating my hidden notes file as I go. 
 
-3:32 - WIP - Took a 1 hour break to clean and eat lunch. Back to coding with tutorial. Working on hooks with objects. 
+3:32 pm - WIP - Took a 1 hour break to clean and eat lunch. Back to coding with tutorial. Working on hooks with objects. 
+
+4:05 pm - Taking a break for the afternoon
+
+
+May 16, 2022:
+
+7:45 pm - More React and adding Mongo DB MERN stack tutorial as well via https://www.mongodb.com/languages/mern-stack-tutorial 
+
