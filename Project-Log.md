@@ -48,3 +48,5 @@ May 16, 2022:
 10:40 - WIP - creating a full CRUD MERN stack app... using a separate Github repo:  https://github.com/rjashby/mern-stack-app
 
 11:26 - WIP - coding MERN stack app still
+
+12:08 - WIP - finished coding MERN stack app - Break
