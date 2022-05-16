@@ -51,4 +51,6 @@ May 16, 2022:
 
 12:08 - WIP - finished coding MERN stack app - Break
 
-1:25 - WIP - back to coding React tutorials
+1:25 - WIP - back to coding React tutorials.
+
+1:56 - WIP - still coding React
