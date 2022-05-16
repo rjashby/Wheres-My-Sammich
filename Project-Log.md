@@ -56,3 +56,5 @@ May 16, 2022:
 1:56 - WIP - still coding React
 
 2:43 - WIP - Still coding React - Updating Notes.txt file as I go
+
+3:26 - WIP - Still coding tutorials. Need to put it down and write actual code soon. 
