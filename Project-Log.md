@@ -42,3 +42,5 @@ May 16, 2022:
 8:17 am - Nearly finished with changing arrays and objects with state tutorial. Added more notes to notes.txt file (in gitignore)
 
 8:47 am - WIP - still coding with React tutorial
+
+9:43 am - WIP - ate breakfast, back to coding tutorials
