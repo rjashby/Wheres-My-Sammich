@@ -37,6 +37,8 @@ May 15, 2022:
 
 May 16, 2022:
 
-7:45 pm - More React and adding Mongo DB MERN stack tutorial as well via https://www.mongodb.com/languages/mern-stack-tutorial 
+7:45 am - More React and adding Mongo DB MERN stack tutorial as well via https://www.mongodb.com/languages/mern-stack-tutorial 
 
-8:17 pm - Nearly finished with changing arrays and objects with state tutorial. Added more notes to notes.txt file (in gitignore)
+8:17 am - Nearly finished with changing arrays and objects with state tutorial. Added more notes to notes.txt file (in gitignore)
+
+8:47 am - WIP - still coding with React tutorial
