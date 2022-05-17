@@ -92,4 +92,6 @@ May 17, 2022
 
 11:38: App builds with the components I've made thus far. Got firebase/firestore set up. Need a break. 
 
-1:45p pm - Ran some errands and ate lunch. Back at it.
+1:45 pm - Ran some errands and ate lunch. Back at it.
+
+3:40 pm - Lost track of time. Set up firebase/firestore, signup, review form, and navbar
