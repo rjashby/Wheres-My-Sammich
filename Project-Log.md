@@ -89,3 +89,5 @@ May 17, 2022
 10:09 - Trying to set up Auth 0 to use simply authentication. Add a series of components as well. 
 
 10:53 - Auth 0 didn't work. Waste of time. Back to drawing board.
+
+
