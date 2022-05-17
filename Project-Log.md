@@ -68,3 +68,5 @@ May 16, 2022:
 6:00 - Doing React Form tutorial. This is never going to end. 
 
 6:15 - Taking a break
+
+9:00 - Back at it. 
