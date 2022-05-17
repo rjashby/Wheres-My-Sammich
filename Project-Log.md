@@ -64,3 +64,5 @@ May 16, 2022:
 5:04 - Still blasting through tutorial. It says it's 12 hours, but you pause nearly every 5 minutes to code a new algorithm. So, I'm going to have to finish this tutorial some other time and start coding this evening. I'm outta time to study. 
 
 5:30 - Updating my knowledge of forms in React : https://reactjs.org/docs/forms.html 
+
+6:00 - Doing React Form tutorial. This is never going to end. 
