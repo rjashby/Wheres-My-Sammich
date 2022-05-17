@@ -78,3 +78,8 @@ May 16, 2022:
 10:58 - Finish meme generator app in React - working with API calls now. 
 
 11:30 - Breaking for the night. 
+
+
+May 17, 2022
+
+8:00 am - I got two days to code this thing. Let's go. 
