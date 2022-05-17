@@ -83,3 +83,5 @@ May 16, 2022:
 May 17, 2022
 
 8:00 am - I got two days to code this thing. Let's go. 
+
+9:11 - Hit a snag and had to reinstall all node modules
