@@ -66,3 +66,5 @@ May 16, 2022:
 5:30 - Updating my knowledge of forms in React : https://reactjs.org/docs/forms.html 
 
 6:00 - Doing React Form tutorial. This is never going to end. 
+
+6:15 - Taking a break
