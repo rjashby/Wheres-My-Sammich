@@ -95,3 +95,5 @@ May 17, 2022
 1:45 pm - Ran some errands and ate lunch. Back at it.
 
 3:40 pm - Lost track of time. Set up firebase/firestore, signup, review form, and navbar
+
+4:45 - Attempting to get log in/authorization working. 
