@@ -58,3 +58,7 @@ May 16, 2022:
 2:43 - WIP - Still coding React - Updating Notes.txt file as I go
 
 3:26 - WIP - Still coding tutorials. Need to put it down and write actual code soon. 
+
+3:50 - 20 min Break
+
+5:04 - Still blasting through tutorial. It says it's 12 hours, but you pause nearly every 5 minutes to code a new algorithm. So, I'm going to have to finish this tutorial some other time and start coding this evening. I'm outta time to study. 
