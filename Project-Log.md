@@ -49,7 +49,7 @@ May 16, 2022:
 
 11:26 - WIP - coding MERN stack app still
 
-12:08 - WIP - finished coding MERN stack app - Break
+12:08 pm - WIP - finished coding MERN stack app - Break
 
 1:25 - WIP - back to coding React tutorials.
 
@@ -62,3 +62,5 @@ May 16, 2022:
 3:50 - 20 min Break
 
 5:04 - Still blasting through tutorial. It says it's 12 hours, but you pause nearly every 5 minutes to code a new algorithm. So, I'm going to have to finish this tutorial some other time and start coding this evening. I'm outta time to study. 
+
+5:30 - Updating my knowledge of forms in React : https://reactjs.org/docs/forms.html 
