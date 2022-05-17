@@ -90,4 +90,4 @@ May 17, 2022
 
 10:53 - Auth 0 didn't work. Waste of time. Back to drawing board.
 
-
+11:38: App builds with the components I've made thus far. Got firebase/firestore set up. Need a break. 
