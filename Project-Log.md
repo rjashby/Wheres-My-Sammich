@@ -70,3 +70,5 @@ May 16, 2022:
 6:15 - Taking a break
 
 9:00 - Back at it. 
+
+9:42 - Finish learning about different form elements in React and how to deal with them all. 
