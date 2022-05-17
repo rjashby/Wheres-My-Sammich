@@ -72,3 +72,5 @@ May 16, 2022:
 9:00 - Back at it. 
 
 9:42 - Finish learning about different form elements in React and how to deal with them all. 
+
+10:30 - Write a series of onChange and onSubmit functions. Moving on to adding text to meme images in tutorial
