@@ -117,3 +117,4 @@ May 18, 2022
 
 3:15 - Need to turn back to getting basic functionality of the app working. 
 
+4:41 - Still trying to figure out adding google maps. Got the forms and database and api calls working fine.
