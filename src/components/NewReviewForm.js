@@ -40,7 +40,8 @@ export default function NewReviewForm() {
       }
     );
   }
-
+  
+  console.log(formData);
   return (
     <React.Fragment>
       <div className="flex justify-center">
