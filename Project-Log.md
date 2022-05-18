@@ -103,3 +103,10 @@ May 17, 2022
 6:30 - Break for dinner and household stuff.
 
 9:30 - 10:45 - Experimenting with useEffect hook. 
+
+11:30 - Bed time
+
+May 18, 2022
+
+7:15 am - Finishing up useEffect, then moving on google maps for React and uploading files(photos)
+
