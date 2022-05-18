@@ -22,8 +22,9 @@ app.post('/create', (req, res) => {
   const location = req.body.location
   const stars = req.body.stars
   const comments = req.body.comments
+  const image = req.body.image
 
-  db.query('INSERT INTO sandwiches (title, sandwich, location, stars, comments) VALUES (?, ?, ?, ?, ?)', [title, sandwich, location, stars, comments], (err, result) => {
+  db.query('INSERT INTO sandwiches (title, sandwich, location, stars, comments, image) VALUES (?, ?, ?, ?, ?, ?)', [title, sandwich, location, stars, comments, image], (err, result) => {
       if (err) {
         console.log(err);
       } else {

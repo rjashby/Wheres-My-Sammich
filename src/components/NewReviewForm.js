@@ -23,6 +23,7 @@ export default function NewReviewForm() {
   const [location, setLocation] = React.useState("");
   const [stars, setStars] = React.useState("");
   const [comments, setComments] = React.useState("");
+  const [image, setImage] = React.useState("");
 
   const [sandwichList, setSandwichList] = React.useState([]);
 
@@ -33,7 +34,8 @@ export default function NewReviewForm() {
       sandwich: sandwich, 
       location: location, 
       stars: stars, 
-      comments: comments
+      comments: comments,
+      image: image
     }).then(() => {
       setSandwichList([...sandwichList, 
         {
@@ -41,7 +43,8 @@ export default function NewReviewForm() {
         sandwich: sandwich, 
         location: location, 
         stars: stars, 
-        comments: comments
+        comments: comments,
+        image: image
         }, 
       ]);
     })
@@ -137,6 +140,15 @@ export default function NewReviewForm() {
                 }}
                 // name="comments"
                 // value={formData.comments}
+            />
+            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2"
+            type="text"
+            placeholder="Insert Image URL"
+            onChange={(event) => {
+              setImage(event.target.value)
+            }}
+            // name="stars"
+            // value={formData.stars}
             />
             <div className="flex justify-center">
               <button className="bg-yellow-500 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full" onClick={addSandwich}>Submit Review</button>
