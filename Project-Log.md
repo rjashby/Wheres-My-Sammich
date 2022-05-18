@@ -110,3 +110,4 @@ May 18, 2022
 
 7:15 am - Finishing up useEffect, then moving on google maps for React and uploading files(photos)
 
+8:15 - Tutorials on useEffect completed. Back to coding project.
