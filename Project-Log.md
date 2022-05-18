@@ -97,3 +97,9 @@ May 17, 2022
 3:40 pm - Lost track of time. Set up firebase/firestore, signup, review form, and navbar
 
 4:45 - Attempting to get log in/authorization working. 
+
+5:37 - Auth not working. Still need to trouble shoot. Pivoted to adding images, changing styling for form, and adding routes
+
+6:30 - Break for dinner and household stuff.
+
+9:30 - 10:45 - Experimenting with useEffect hook. 
