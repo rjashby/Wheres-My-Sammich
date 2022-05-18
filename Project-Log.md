@@ -106,6 +106,7 @@ May 17, 2022
 
 11:30 - Bed time
 
+
 May 18, 2022
 
 7:15 am - Finishing up useEffect, then moving on google maps for React and uploading files(photos)
