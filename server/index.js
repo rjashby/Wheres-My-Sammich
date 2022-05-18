@@ -1,9 +1,9 @@
+// import SQL from "../src/SQL"
 
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
 const cors = require('cors');
-const pass = process.env.SQL_PASS
 
 app.use(cors());
 app.use(express.json());
@@ -11,11 +11,10 @@ app.use(express.json());
 const db = mysql.createConnection({
   user: 'root',
   host: 'localhost',
-  password: process.env.SQL_PASS,
+  password: "Qwer2468!!",
   database: 'sandwiches'
 });
 
-console.log(pass)
 
 app.post('/create', (req, res) => {
   const title = req.body.title
