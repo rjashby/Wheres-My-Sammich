@@ -130,3 +130,9 @@ May 18, 2022
 8:40 - 10:40 - Found additional tutorials for implementing google maps with search functionality. May try to incorporate early in the morning. Need to sleep. 
 
 Note: also added google maps for react to package.json
+
+
+May 19, 2022
+
+7:00 - Back at it. Going to try to get a better map working
+
