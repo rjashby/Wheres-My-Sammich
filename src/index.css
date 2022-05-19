@@ -12,17 +12,16 @@
 }
 
 
-/* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
   margin: 20px;
-  max-width: 350px;
+  max-width: 100%;
   display: inline-block;
 }
 
@@ -43,6 +42,7 @@
 
 .card img {
   height: 350px;
+  width: auto;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */

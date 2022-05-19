@@ -6,6 +6,7 @@ import Signin from "./SignIn";
 import Map from "./Map"
 import NewReviewForm from "./NewReviewForm";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MyGoogleMap from "./MyGoogleMap";
 
 export default function App() {
   return (
