@@ -1,9 +1,10 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import firebase from "firebase/compat/app";
 
 const navigation = [
-  { name: "Sandwiches", href: "/", current: true },
+  { name: "Sandwiches", href: "/", current: false },
   { name: "Shops", href: "/map", current: false },
   { name: "Submit New Review", href: "/review", current: false },
   { name: "Sign In", href: "/signin", current: false },
@@ -13,9 +14,18 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
+function doSignOut() {
+  firebase.auth().signOut().then(function() {
+    console.log("Successfully signed out!");
+  }).catch(function(error) {
+    console.log(error.message);
+  });
+}
+
+
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-yellow-600">
+    <Disclosure as="nav" className="bg-green-600">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -34,12 +44,12 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <a href="/"><img
-                    className="block lg:hidden h-8 w-auto rounded shadow-lg border-solid border-black border-2"
+                    className="block lg:hidden h-8 w-auto rounded shadow-lg border-solid border-gray-600 border-2"
                     src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/thfqikrd/fa6ec698-75b9-4ccd-a8dc-1bd9a274739f.png"
-                    alt="Workflow"
+                    alt="sandwich"
                   /></a> 
                   <a href="/"><img
-                    className="hidden lg:block h-8 w-auto rounded shadow-lg border-solid border-black border-2"
+                    className="hidden lg:block h-8 w-auto rounded shadow-lg border-solid border-gray-600 border-2"
                     src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/thfqikrd/fa6ec698-75b9-4ccd-a8dc-1bd9a274739f.png"
                     alt="Workflow"
                   /></a>
@@ -67,7 +77,7 @@ export default function Navbar() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {/* <button
                   type="button"
-                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-gray-800 p-1 rounded text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 >
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
@@ -76,10 +86,10 @@ export default function Navbar() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="ml-3 relative">
                   <div>
-                    <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                    <Menu.Button className="bg-gray-800 flex text-sm rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open user menu</span>
                       <img
-                        className="h-8 w-8 rounded-full"
+                        className="h-8 w-8 rounded"
                         src="https://icon-library.com/images/blank-person-icon/blank-person-icon-13.jpg"
                         alt=""
                       />
@@ -129,6 +139,7 @@ export default function Navbar() {
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
+                            onClick={doSignOut}
                           >
                             Sign out
                           </a>

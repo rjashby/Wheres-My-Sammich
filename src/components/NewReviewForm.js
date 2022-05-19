@@ -105,7 +105,7 @@ export default function NewReviewForm() {
             }}
             // name="title"
             // value={formData.title} 
-            />
+            required />
             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2"
             type="text"
             placeholder="Sandwich"
@@ -114,7 +114,7 @@ export default function NewReviewForm() {
             }}
             // name="sandwich"
             // value={formData.sandwich}
-            />
+            required />
             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2"
             type="text"
             placeholder="Location"
@@ -123,7 +123,7 @@ export default function NewReviewForm() {
             }}
             // name="location"
             // value={formData.location}
-            />
+            required />
             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2"
             type="text"
             placeholder="How Many Stars out of 5?"
@@ -132,7 +132,7 @@ export default function NewReviewForm() {
             }}
             // name="stars"
             // value={formData.stars}
-            />
+            required />
             <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2"
                 placeholder="Comments"
                 onChange={(event) => {
@@ -140,7 +140,7 @@ export default function NewReviewForm() {
                 }}
                 // name="comments"
                 // value={formData.comments}
-            />
+            required />
             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2"
             type="text"
             placeholder="Insert Image URL"
@@ -149,9 +149,9 @@ export default function NewReviewForm() {
             }}
             // name="stars"
             // value={formData.stars}
-            />
+            required />
             <div className="flex justify-center">
-              <button className="bg-yellow-500 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full" onClick={addSandwich}>Submit Review</button>
+              <button className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded border-2 border-solid border-black" onClick={addSandwich}>Submit Review</button>
             </div>
           </form>
         </div>
