@@ -115,6 +115,14 @@ May 18, 2022
 
 11:00 - Too much work to do. Trying to figure out how to add Google Maps. 
 
-3:15 - Need to turn back to getting basic functionality of the app working. 
+11:45 - 12:45 - Lunch break
+
+12:50 - Back to work, figuring out google maps and using forms correctly. 
+
+3:15 pm - Need to turn back to getting basic functionality of the app working. 
 
 4:41 - Still trying to figure out adding google maps. Got the forms and database and api calls working fine.
+
+4:45 - 6:30 - Dinner and household break
+
+6:40 - 8:40 - 
