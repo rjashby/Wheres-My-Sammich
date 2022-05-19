@@ -1,7 +1,7 @@
 import React from "react"
 import Axios from 'axios';
-import Sandwich from "./Sandwich"
-import data from "../data"
+// import Sandwich from "./Sandwich"
+// import data from "../data"
 
 export default function Home() {
   // const sandwiches = data.map(item => {
@@ -44,8 +44,8 @@ export default function Home() {
         <button onClick={getSandwiches}>Show All Sandwiches</button>
         {sandwichList.map((val, key) => {
           return (
-            <div className="sandwich">
-              <div>
+            <div className="row">
+              <div className="card">
                 <h3 className="shadow rounded py-2 px-3 mb-2 max-w-xs">
                   Title: {val.title}</h3>
                 <h3 className="shadow rounded py-2 px-3 mb-2 max-w-xs">
