@@ -41,6 +41,10 @@
   background-color: #f1f1f1;
 }
 
+.card img {
+  height: 350px;
+}
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {

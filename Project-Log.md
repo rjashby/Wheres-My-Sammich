@@ -125,4 +125,4 @@ May 18, 2022
 
 4:45 - 6:30 - Dinner and household break
 
-6:40 - 8:40 - 
+6:40 - 8:40 - Got the google maps to work. But not the right way. 
