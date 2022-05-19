@@ -43,16 +43,22 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <a href="/"><img
-                    className="block lg:hidden h-8 w-auto rounded shadow-lg border-solid border-gray-600 border-2"
-                    src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/thfqikrd/fa6ec698-75b9-4ccd-a8dc-1bd9a274739f.png"
-                    alt="sandwich"
-                  /></a> 
-                  <a href="/"><img
+                <img
                     className="hidden lg:block h-8 w-auto rounded shadow-lg border-solid border-gray-600 border-2"
                     src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/thfqikrd/fa6ec698-75b9-4ccd-a8dc-1bd9a274739f.png"
                     alt="Workflow"
-                  /></a>
+                  />
+                  <h3  className="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Where's My Sammich?!!?</h3>
+                  <img
+                    className="block lg:hidden h-8 w-auto rounded shadow-lg border-solid border-gray-600 border-2"
+                    src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/thfqikrd/fa6ec698-75b9-4ccd-a8dc-1bd9a274739f.png"
+                    alt="sandwich"
+                  /> 
+                  <img
+                    className="hidden lg:block h-8 w-auto rounded shadow-lg border-solid border-gray-600 border-2"
+                    src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/thfqikrd/fa6ec698-75b9-4ccd-a8dc-1bd9a274739f.png"
+                    alt="Workflow"
+                  />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">

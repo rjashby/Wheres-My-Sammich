@@ -101,10 +101,10 @@ export default function NewReviewForm() {
   // console.log(formData);
   return (
     <React.Fragment>
-      <div className="flex justify-center">
+      <div className="flex justify-center formPage">
         <div className="border-2 border-solid border-black max-w-sm rounded overflow-hidden shadow-lg mb-2 mt-4">
-          <h1 className="text-center text-xl">Leave a Review</h1>
-          <form className="bg-white shadow-sm rounded px-8 pt-6 pb-8" onSubmit={handleSubmit}>
+          <h1 className="text-center text-xl bg-yellow-500">Leave a Review</h1>
+          <form className=" bg-gray-400 shadow-sm rounded px-8 pt-6 pb-8" onSubmit={handleSubmit}>
             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-center leading-tight focus:outline-none focus:shadow-outline mb-2" 
             type="text"
             placeholder="Review Title"
