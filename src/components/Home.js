@@ -41,7 +41,10 @@ export default function Home() {
 
   return (
       <div className='sandwiches'>
-        <button onClick={getSandwiches}>Show All Sandwiches</button>
+        <div>
+          <button className="bg-yellow-500 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full m-4" onClick={getSandwiches}>Show All Sandwiches</button>
+        </div>
+        <div>
         {sandwichList.map((val, key) => {
           return (
             <div className="row">
@@ -59,7 +62,7 @@ export default function Home() {
                 <img src={val.image} alt="sandwich" className="max-w-xs rounded"/>
               </div>
               <div>
-                <button onClick={() => 
+                <button className="bg-yellow-500 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-full m-4" onClick={() => 
                   {
                     deleteSandwich(val.id);
                   }}
@@ -70,6 +73,7 @@ export default function Home() {
             </div>
           );
         })}
+        </div>
       </div>
     );
 }
