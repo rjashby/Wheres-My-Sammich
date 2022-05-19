@@ -126,3 +126,7 @@ May 18, 2022
 4:45 - 6:30 - Dinner and household break
 
 6:40 - 8:40 - Got the google maps to work. But not the right way. 
+
+8:40 - 10:40 - Found additional tutorials for implementing google maps with search functionality. May try to incorporate early in the morning. Need to sleep. 
+
+Note: also added google maps for react to package.json
